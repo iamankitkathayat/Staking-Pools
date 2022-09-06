@@ -1,0 +1,22 @@
+{
+  "account_1": {
+    "address": "0x01bbcBF41B02addf4473cef6Fd783B0F2acD9cf1",
+    "mnemonic": "august pave ceiling dream ship spring practice table march click gas source",
+    "privateKey": "0x37c1acd73b01d9d896c72ed73a39097e53fdee7162324fa82e1ef6838bc95a6d"
+  },
+  "account_2": {
+    "address": "0xa6BFFD310BB0AE42dfF686d142b49f1b532D1A66",
+    "mnemonic": "fence child budget flush blur west unveil fatal captain charge vital boss",
+    "privateKey": "0x1a7101d15a309ebade46e8bc854bfbd83c8dc339ab34a87b1c827882f1644d8b"
+  },
+  "account_3": {
+    "address": "0x2140AF95d55F69513773acc5d97cF4552922D7A9",
+    "mnemonic": "train rely stumble gap float jazz mosquito sudden turtle certain kiss live",
+    "privateKey": "0xd1f35e35f14507010b9556f62895e07fae1293b10ef2576c27b51718e1fcc012"
+  },
+  "account_4": {
+    "address": "0xCB61f141D37C320B4357173ec28Af37A5E09d949",
+    "mnemonic": "food notable evoke assault life ill club ocean plastic absurd inner nothing",
+    "privateKey": "0x1d6817ca1509086f55f2f4751cf8464f305dd6ba713778d31ade993bd7b984bb"
+  }
+}
