@@ -1,0 +1,35 @@
+{
+  "name": "hardhat-project",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.4",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.0.0",
+    "prettier": "^2.6.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.19"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts --network mumbai",
+    "AllCarbonTests": "npx hardhat test test/AllCarbonTests.js",
+    "format": "yarn prettier --write contracts/**/*.sol",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.0.4",
+    "@openzeppelin/hardhat-upgrades": "^1.18.0",
+    "@types/chai": "^4.3.1",
+    "@types/dotenv": "^8.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^17.0.33",
+    "chai": "^4.3.6",
+    "hardhat": "^2.10.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
