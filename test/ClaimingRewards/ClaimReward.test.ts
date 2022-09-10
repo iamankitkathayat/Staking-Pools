@@ -24,3 +24,19 @@ describe("Staking contract", function () {
 
         let tx = await stakingInstance.connect(owner).claimReward(ownerAddress, 1);
         const Tx = await tx.wait();
+
+        console.log("=> Getting Stake Info: ");
+        let tx8 = await stakingInstance.getStakedInfo(ownerAddress, 1);
+        console.log(
+        " 1. Staking Timestamp",tx8[0].toString(), "\n",
+        "2. NFT Value",tx8[1].toString(), "\n",
+        "3. Total Claimable Rewards",tx8[2].toString(), "\n",
+        "4. Claimed Rewards",tx8[3].toString(), "\n",
+        "5. Reward Installment",tx8[4].toString(), "\n",
+        "6. Last Withdrawal Time",tx8[5].toString(), "\n"
+        );
+
+
+
+
+  });
