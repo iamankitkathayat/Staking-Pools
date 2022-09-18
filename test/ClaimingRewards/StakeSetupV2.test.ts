@@ -92,3 +92,17 @@ describe("===================>Staking<==================",function () {
 
         console.log("\n=> GETTING STAKE INFO:");
         let tx7 = await StakingInstance.getStakedInfo(ownerAddress, 1);
+        console.log(
+        "Staking Timestamp",tx7[0].toString(), "\n",
+        "NFT Value in 10**4",tx7[1].toString(), "\n",
+        "Total Claimable Rewards",tx7[2].toString(), "\n",
+        "Claimed Rewards",tx7[3].toString(), "\n",
+        "Reward Installment",tx7[4].toString(), "\n",
+        "Last Withdrawal Time",tx7[5].toString(), "\n"
+        );
+
+
+
+    });
+
+});
