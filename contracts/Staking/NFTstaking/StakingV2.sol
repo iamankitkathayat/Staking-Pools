@@ -309,3 +309,4 @@ contract StakingV2 is
     function _msgData() internal pure override returns (bytes calldata) {
         return msg.data;
     }
+}
