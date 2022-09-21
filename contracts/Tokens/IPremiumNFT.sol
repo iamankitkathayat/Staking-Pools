@@ -1,10 +1,4 @@
-// SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
-
-interface IPremiumNFT {
-
-    event Transfer(
         address indexed _from,
         address indexed _to,
         uint256 indexed _tokenId
