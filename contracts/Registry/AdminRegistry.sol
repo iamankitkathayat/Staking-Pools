@@ -55,3 +55,15 @@ contract AdminRegistry is AccessControlEnumerable {
         external
         view
         returns (uint256, address[] memory)
+    {
+        uint256 roleMemberCount = getRoleMemberCount(DEFAULT_ADMIN_ROLE);
+        address[] memory roleMembers = new address[](roleMemberCount);
+
+        for (uint256 index = 0; index < roleMemberCount; index++) {
+            roleMembers[index] = getRoleMember(DEFAULT_ADMIN_ROLE, index);
+        }
+
+        return (roleMemberCount, roleMembers);
+    }
+
+}
