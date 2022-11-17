@@ -38,12 +38,7 @@ module.exports = {
     //   chainId: 4,
     //   blockConfirmations: 6,
     // },
-    // goerli: {
-    //   url: process.env.GOERLI_RPC_URL,
-    //   accounts: [process.env.PRIVATE_KEY_1, process.env.PRIVATE_KEY_2],
-    //   chainId: 5,
-    //   blockConfirmations: 6,
-    // },
+
 
     mumbai: {
       url: `https://polygon-mumbai.g.alchemy.com/v2/1lo5rOEtPbYlohlrOYiNa9xTUc2Qm8uD`,
