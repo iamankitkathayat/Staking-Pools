@@ -8,8 +8,7 @@ require('@nomicfoundation/hardhat-toolbox');
 import { task } from "hardhat/config";
 import { config as dotEnvConfig } from "dotenv";
 dotEnvConfig();
-// This is a sample Hardhat task. To learn how to create your own go to
-// https://hardhat.org/guides/create-task.html
+
 task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
   const accounts = await hre.ethers.getSigners();
 
@@ -31,13 +30,6 @@ module.exports = {
       url: "http://127.0.0.1:8545/",
     },
     hardhat: {},
-
-    // rinkeby: {
-    //   url: process.env.RINKEBY_RPC_URL,
-    //   accounts: [process.env.PRIVATE_KEY_1, process.env.PRIVATE_KEY_2],
-    //   chainId: 4,
-    //   blockConfirmations: 6,
-    // },
 
 
     mumbai: {
